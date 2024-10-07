@@ -30,7 +30,7 @@ db.connect((err) => {
 
 // Define a route for the home page
 app.get('/', (req, res) => {
-    res.send('Welcome to the home page!'); // Responds to the root URL
+    res.send('Hello Pretty People i miss you!'); // Responds to the root URL
 });
 
 // Define a route for /data
